@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunny Mondal — The Blueprint for the Modern Indian Entrepreneur</title>
+    <meta name="description"
+        content="Sunny Mondal's #1 business and personal growth podcast. Real conversations with founders, CEOs, and visionaries building the future. Join 1M+ listeners." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ═══════════════════════════════════════════ NAVBAR ═══════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">▶</span>
+                <span class="logo-text">SUNNY<span class="accent"> MONDAL</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#episodes" class="nav-link">Episodes</a></li>
+                <li><a href="#clips" class="nav-link">Clips</a></li>
+                <li><a href="#guests" class="nav-link">Guests</a></li>
+                <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+                <li><a href="#book" class="nav-cta" id="nav-book-cta">Book Sunny</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════ HERO ════════════════ -->
+    <section class="hero" id="home">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Sunny Mondal · India's #1 Business Podcast · 1M+ Listeners
+                </div>
+                <h1 class="hero-title">
+                    THE<br />
+                    <span class="hero-title-accent">BLUEPRINT</span><br />
+                    FOR THE MODERN<br />
+                    <span class="hero-title-outline">INDIAN</span><br />
+                    ENTREPRENEUR.
+                </h1>
+                <p class="hero-subtitle">
+                    Raw, unfiltered conversations with the founders, CEOs, and visionaries
+                    who are building India's future — one bold decision at a time.
+                </p>
+                <div class="hero-actions">
+                    <a href="#episodes" class="btn-primary" id="hero-cta-listen">
+                        <span class="btn-icon">▶</span> Start Listening
+                    </a>
+                    <a href="#" class="btn-ghost" id="hero-cta-spotify">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                        </svg>
+                        Listen on Spotify
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num">1M<span class="accent">+</span></span>
+                        <span class="stat-label">Monthly Listeners</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">350<span class="accent">+</span></span>
+                        <span class="stat-label">Episodes</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">#1<span class="accent"></span></span>
+                        <span class="stat-label">Business Podcast India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-glow"></div>
+                <div class="hero-image-frame">
+                    <img src="host.png" alt="Sunny Mondal" class="hero-image" id="hostImage" />
+                    <div class="hero-image-overlay"></div>
+                </div>
+                <div class="hero-now-playing">
+                    <div class="playing-icon">
+                        <span class="bar"></span><span class="bar"></span>
+                        <span class="bar"></span><span class="bar"></span>
+                    </div>
+                    <div class="playing-info">
+                        <span class="playing-label">SUNNY MONDAL PODCAST</span>
+                        <span class="playing-title">Ep. 347: The $100M Founder's Mindset</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FEATURED ON ══════════════ -->
+    <section class="featured-on" id="featured">
+        <div class="container">
+            <p class="featured-label">AS FEATURED ON</p>
+            <div class="logo-track-wrapper">
+                <div class="logo-track" id="logoTrack">
+                    <div class="logo-item">Forbes India</div>
+                    <div class="logo-item">Economic Times</div>
+                    <div class="logo-item">YourStory</div>
+                    <div class="logo-item">Inc42</div>
+                    <div class="logo-item">BusinessLine</div>
+                    <div class="logo-item">The Ken</div>
+                    <div class="logo-item">Mint</div>
+                    <div class="logo-item">NDTV Profit</div>
+                    <!-- Duplicate for seamless scroll -->
+                    <div class="logo-item">Forbes India</div>
+                    <div class="logo-item">Economic Times</div>
+                    <div class="logo-item">YourStory</div>
+                    <div class="logo-item">Inc42</div>
+                    <div class="logo-item">BusinessLine</div>
+                    <div class="logo-item">The Ken</div>
+                    <div class="logo-item">Mint</div>
+                    <div class="logo-item">NDTV Profit</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ LATEST EPISODES ══════════ -->
+    <section class="episodes" id="episodes">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">NEW EPISODES</div>
+                <h2 class="section-title">Fresh Off the Mic</h2>
+                <div class="search-bar">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                    <input type="text" placeholder="Search episodes, guests..." id="episodeSearch"
+                        class="search-input" />
+                </div>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="founders">Founders</button>
+                <button class="filter-tab" data-filter="investors">Investors</button>
+                <button class="filter-tab" data-filter="mindset">Mindset</button>
+                <button class="filter-tab" data-filter="finance">Finance</button>
+            </div>
+
+            <div class="episodes-grid" id="episodesGrid">
+
+                <article class="episode-card featured-episode" data-category="founders">
+                    <div class="ep-image-wrapper">
+                        <div class="ep-avatar ep-avatar-1">RB</div>
+                        <div class="ep-play-btn" id="play-ep1">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="ep-number">EP. 347</span>
+                    </div>
+                    <div class="ep-content">
+                        <div class="ep-meta">
+                            <span class="ep-category">FOUNDERS</span>
+                            <span class="ep-duration">1h 42m</span>
+                        </div>
+                        <h3 class="ep-title">The $100M Founder's Mindset: Ritesh Bansal on Scaling Against All Odds</h3>
+                        <p class="ep-desc">From a garage startup to a unicorn in 5 years — Ritesh breaks down every
+                            decision that mattered.</p>
+                        <div class="ep-footer">
+                            <div class="ep-views">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                2.4M views
+                            </div>
+                            <button class="ep-more-btn">Listen Now →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-category="investors">
+                    <div class="ep-image-wrapper">
+                        <div class="ep-avatar ep-avatar-2">AP</div>
+                        <div class="ep-play-btn" id="play-ep2">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="ep-number">EP. 346</span>
+                    </div>
+                    <div class="ep-content">
+                        <div class="ep-meta">
+                            <span class="ep-category">INVESTORS</span>
+                            <span class="ep-duration">58m</span>
+                        </div>
+                        <h3 class="ep-title">What VCs Don't Tell You: Ananya Patel on the Truth About Funding</h3>
+                        <p class="ep-desc">Breaking down term sheets, dilution, and what investors actually look for.
+                        </p>
+                        <div class="ep-footer">
+                            <div class="ep-views">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                1.8M views
+                            </div>
+                            <button class="ep-more-btn">Listen Now →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-category="mindset">
+                    <div class="ep-image-wrapper">
+                        <div class="ep-avatar ep-avatar-3">VS</div>
+                        <div class="ep-play-btn" id="play-ep3">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="ep-number">EP. 345</span>
+                    </div>
+                    <div class="ep-content">
+                        <div class="ep-meta">
+                            <span class="ep-category">MINDSET</span>
+                            <span class="ep-duration">1h 15m</span>
+                        </div>
+                        <h3 class="ep-title">The Discipline Protocol: Vikram Singh's 5AM System That Built a Empire</h3>
+                        <p class="ep-desc">Morning routines aren't hype — Vikram's data-driven approach to peak
+                            performance.</p>
+                        <div class="ep-footer">
+                            <div class="ep-views">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                1.2M views
+                            </div>
+                            <button class="ep-more-btn">Listen Now →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-category="finance">
+                    <div class="ep-image-wrapper">
+                        <div class="ep-avatar ep-avatar-4">NK</div>
+                        <div class="ep-play-btn" id="play-ep4">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="ep-number">EP. 344</span>
+                    </div>
+                    <div class="ep-content">
+                        <div class="ep-meta">
+                            <span class="ep-category">FINANCE</span>
+                            <span class="ep-duration">1h 02m</span>
+                        </div>
+                        <h3 class="ep-title">Building Wealth at 25: Neha Kumar's Framework for Financial Freedom</h3>
+                        <p class="ep-desc">The exact steps she took to go from zero net worth to financial independence
+                            in 7 years.</p>
+                        <div class="ep-footer">
+                            <div class="ep-views">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                980K views
+                            </div>
+                            <button class="ep-more-btn">Listen Now →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-category="founders">
+                    <div class="ep-image-wrapper">
+                        <div class="ep-avatar ep-avatar-5">SM</div>
+                        <div class="ep-play-btn" id="play-ep5">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="ep-number">EP. 343</span>
+                    </div>
+                    <div class="ep-content">
+                        <div class="ep-meta">
+                            <span class="ep-category">FOUNDERS</span>
+                            <span class="ep-duration">1h 30m</span>
+                        </div>
+                        <h3 class="ep-title">Bootstrapped to Billions: Suresh Mehta's No-VC Path to Dominance</h3>
+                        <p class="ep-desc">Why he turned down Sequoia twice and how that decision changed everything.
+                        </p>
+                        <div class="ep-footer">
+                            <div class="ep-views">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                760K views
+                            </div>
+                            <button class="ep-more-btn">Listen Now →</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="episode-card" data-category="mindset">
+                    <div class="ep-image-wrapper">
+                        <div class="ep-avatar ep-avatar-6">PG</div>
+                        <div class="ep-play-btn" id="play-ep6">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="ep-number">EP. 342</span>
+                    </div>
+                    <div class="ep-content">
+                        <div class="ep-meta">
+                            <span class="ep-category">MINDSET</span>
+                            <span class="ep-duration">47m</span>
+                        </div>
+                        <h3 class="ep-title">Failure is Data: Priya Gupta on How She Failed 3 Startups Before Finding
+                            Gold</h3>
+                        <p class="ep-desc">The counterintuitive truth about failure that most entrepreneurship books
+                            won't tell you.</p>
+                        <div class="ep-footer">
+                            <div class="ep-views">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                620K views
+                            </div>
+                            <button class="ep-more-btn">Listen Now →</button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="section-footer">
+                <a href="#" class="btn-outline" id="load-more-eps">View All 350+ Episodes →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PLAYER ═══════════════════ -->
+    <section class="player-section" id="player">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">LISTEN NOW</div>
+                <h2 class="section-title">Tune In Directly</h2>
+            </div>
+            <div class="player-grid">
+                <div class="player-card spotify-player">
+                    <div class="player-card-header">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="#1DB954">
+                            <path
+                                d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                        </svg>
+                        <span>Listen on Spotify</span>
+                    </div>
+                    <iframe id="spotifyEmbed" style="border-radius:12px"
+                        src="https://open.spotify.com/embed/show/4rOoJ6Egrf8K2IrywzwOMk?utm_source=generator&theme=0"
+                        width="100%" height="232" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
+                </div>
+                <div class="player-card youtube-player">
+                    <div class="player-card-header">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="#FF0000">
+                            <path
+                                d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z" />
+                        </svg>
+                        <span>Watch on YouTube</span>
+                    </div>
+                    <div class="yt-embed-wrapper">
+                        <iframe id="youtubeEmbed" width="100%" height="232"
+                            src="https://www.youtube.com/embed/videoseries?list=PLbpi6ZahtOH6Ar_3GPy3workszW0p9DzM"
+                            title="Sunny Mondal Podcast" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CLIPS / SHORTS ═══════════ -->
+    <section class="clips-section" id="clips">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">SHORTS & CLIPS</div>
+                <h2 class="section-title">Bite-Sized Brilliance</h2>
+                <p class="section-subtitle">The moments that hit different. Share them.</p>
+            </div>
+            <div class="clips-grid">
+
+                <div class="clip-card" id="clip-1">
+                    <div class="clip-thumbnail">
+                        <div class="clip-avatar clip-av-1">RB</div>
+                        <div class="clip-play">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="clip-duration">1:47</span>
+                    </div>
+                    <div class="clip-info">
+                        <p class="clip-title">"Most founders fail at this one thing..."</p>
+                        <span class="clip-views">4.2M views</span>
+                    </div>
+                </div>
+
+                <div class="clip-card" id="clip-2">
+                    <div class="clip-thumbnail">
+                        <div class="clip-avatar clip-av-2">AP</div>
+                        <div class="clip-play">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="clip-duration">2:15</span>
+                    </div>
+                    <div class="clip-info">
+                        <p class="clip-title">"The fundraising mistake that kills startups"</p>
+                        <span class="clip-views">3.1M views</span>
+                    </div>
+                </div>
+
+                <div class="clip-card" id="clip-3">
+                    <div class="clip-thumbnail">
+                        <div class="clip-avatar clip-av-3">VS</div>
+                        <div class="clip-play">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="clip-duration">0:58</span>
+                    </div>
+                    <div class="clip-info">
+                        <p class="clip-title">"Wake up at 5AM and your life changes"</p>
+                        <span class="clip-views">6.8M views</span>
+                    </div>
+                </div>
+
+                <div class="clip-card" id="clip-4">
+                    <div class="clip-thumbnail">
+                        <div class="clip-avatar clip-av-4">NK</div>
+                        <div class="clip-play">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                        <span class="clip-duration">1:33</span>
+                    </div>
+                    <div class="clip-info">
+                        <p class="clip-title">"Invest this ₹5000 before you invest anything else"</p>
+                        <span class="clip-views">2.9M views</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ GUEST DIRECTORY ══════════ -->
+    <section class="guests-section" id="guests">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">GUEST DIRECTORY</div>
+                <h2 class="section-title">World-Class Guests</h2>
+                <div class="search-bar">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                    <input type="text" placeholder="Search by name or company..." id="guestSearch"
+                        class="search-input" />
+                </div>
+            </div>
+            <div class="guests-grid" id="guestsGrid">
+
+                <div class="guest-card" data-name="ritesh bansal">
+                    <div class="guest-avatar guest-av-1">RB</div>
+                    <div class="guest-info">
+                        <h4 class="guest-name">Ritesh Bansal</h4>
+                        <p class="guest-role">Founder & CEO, TechNova</p>
+                        <span class="guest-ep-count">3 Episodes</span>
+                    </div>
+                    <div class="guest-arrow">→</div>
+                </div>
+
+                <div class="guest-card" data-name="ananya patel">
+                    <div class="guest-avatar guest-av-2">AP</div>
+                    <div class="guest-info">
+                        <h4 class="guest-name">Ananya Patel</h4>
+                        <p class="guest-role">Partner, Peak Ventures</p>
+                        <span class="guest-ep-count">2 Episodes</span>
+                    </div>
+                    <div class="guest-arrow">→</div>
+                </div>
+
+                <div class="guest-card" data-name="vikram singh">
+                    <div class="guest-avatar guest-av-3">VS</div>
+                    <div class="guest-info">
+                        <h4 class="guest-name">Vikram Singh</h4>
+                        <p class="guest-role">Author & Performance Coach</p>
+                        <span class="guest-ep-count">1 Episode</span>
+                    </div>
+                    <div class="guest-arrow">→</div>
+                </div>
+
+                <div class="guest-card" data-name="neha kumar">
+                    <div class="guest-avatar guest-av-4">NK</div>
+                    <div class="guest-info">
+                        <h4 class="guest-name">Neha Kumar</h4>
+                        <p class="guest-role">CFO, Zenith Capital</p>
+                        <span class="guest-ep-count">2 Episodes</span>
+                    </div>
+                    <div class="guest-arrow">→</div>
+                </div>
+
+                <div class="guest-card" data-name="suresh mehta">
+                    <div class="guest-avatar guest-av-5">SM</div>
+                    <div class="guest-info">
+                        <h4 class="guest-name">Suresh Mehta</h4>
+                        <p class="guest-role">CEO, BoldBrands India</p>
+                        <span class="guest-ep-count">1 Episode</span>
+                    </div>
+                    <div class="guest-arrow">→</div>
+                </div>
+
+                <div class="guest-card" data-name="priya gupta">
+                    <div class="guest-avatar guest-av-6">PG</div>
+                    <div class="guest-info">
+                        <h4 class="guest-name">Priya Gupta</h4>
+                        <p class="guest-role">3x Founder, BuildLab</p>
+                        <span class="guest-ep-count">1 Episode</span>
+                    </div>
+                    <div class="guest-arrow">→</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SOCIAL PROOF ═════════════ -->
+    <section class="social-proof">
+        <div class="container">
+            <div class="proof-grid">
+                <div class="proof-stat">
+                    <span class="proof-num">1<span class="accent">M</span>+</span>
+                    <span class="proof-label">Monthly Listeners</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-num">350<span class="accent">+</span></span>
+                    <span class="proof-label">Episodes</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-num">4.9<span class="accent">★</span></span>
+                    <span class="proof-label">Average Rating</span>
+                </div>
+                <div class="proof-stat">
+                    <span class="proof-num">120<span class="accent">+</span></span>
+                    <span class="proof-label">World-Class Guests</span>
+                </div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial active" id="t1">
+                    <p class="t-quote">"This podcast changed how I think about scaling. It's required listening for
+                        every founder in my portfolio."</p>
+                    <div class="t-author">
+                        <div class="t-avatar">SR</div>
+                        <div>
+                            <span class="t-name">Sanjay Rao</span>
+                            <span class="t-title">Managing Partner, Nexus Ventures</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" id="t2">
+                    <p class="t-quote">"The episode on fundraising psychology completely shifted how I pitch investors.
+                        Raised ₹20Cr the next month."</p>
+                    <div class="t-author">
+                        <div class="t-avatar">DM</div>
+                        <div>
+                            <span class="t-name">Divya Menon</span>
+                            <span class="t-title">Co-Founder, GrowFast</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial" id="t3">
+                    <p class="t-quote">"Raw, real, and relentlessly useful. There's no podcast in India that comes close
+                        to this level of depth."</p>
+                    <div class="t-author">
+                        <div class="t-avatar">AK</div>
+                        <div>
+                            <span class="t-name">Arjun Khanna</span>
+                            <span class="t-title">CEO, ScaleUp India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="t-dots">
+                <button class="t-dot active" data-t="0" aria-label="Testimonial 1"></button>
+                <button class="t-dot" data-t="1" aria-label="Testimonial 2"></button>
+                <button class="t-dot" data-t="2" aria-label="Testimonial 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ NEWSLETTER CTA ═══════════ -->
+    <section class="newsletter-section" id="newsletter">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="newsletter-glow"></div>
+                <div class="nl-content">
+                    <div class="section-tag">THE INSIDER</div>
+                    <h2 class="nl-title">Join <span class="accent">1M+</span> Listeners.<br />Get the Weekly Edge.</h2>
+                    <p class="nl-desc">Every Sunday — curated insights from the week's episode, plus exclusive content,
+                        guest takeaways, and the one idea that will change how you think about building.</p>
+                    <form class="nl-form" id="newsletterForm">
+                        <div class="nl-input-group">
+                            <input type="email" placeholder="your@email.com" class="nl-input" id="nlEmail" required />
+                            <button type="submit" class="nl-btn" id="nl-submit">Subscribe Free</button>
+                        </div>
+                        <p class="nl-fine-print">No spam. Unsubscribe anytime. 100% free.</p>
+                    </form>
+                </div>
+                <div class="nl-deco">
+                    <div class="nl-deco-num">1M<span class="accent">+</span></div>
+                    <div class="nl-deco-sub">subscribers</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ BOOK CTA ═════════════════ -->
+    <section class="book-section" id="book">
+        <div class="container">
+            <div class="book-card">
+                <div class="book-content">
+                    <div class="section-tag">BOOK THE HOST</div>
+                    <h2 class="book-title">Be a Guest.<br />Tell Your Story.</h2>
+                    <p class="book-desc">If you're a founder, investor, or visionary with a story that deserves to be
+                        heard — we want to hear from you. Only 12 guest slots open per quarter.</p>
+                    <div class="book-requirements">
+                        <div class="req">✓ Founders at Series A+</div>
+                        <div class="req">✓ Verified track record</div>
+                        <div class="req">✓ Story worth 1M+ ears</div>
+                    </div>
+                    <a href="mailto:book@figuringout.in" class="btn-primary" id="book-cta">Apply to Be a Guest →</a>
+                </div>
+                <div class="book-visual">
+                    <div class="mic-visual">
+                        <div class="mic-ring ring-1"></div>
+                        <div class="mic-ring ring-2"></div>
+                        <div class="mic-ring ring-3"></div>
+                        <div class="mic-body">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3z" />
+                                <path
+                                    d="M17 11c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V21h2v-3.08c3.39-.49 6-3.39 6-6.92h-2z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="nav-logo">
+                        <span class="logo-icon">▶</span>
+                        <span class="logo-text">SUNNY<span class="accent"> MONDAL</span></span>
+                    </a>
+                    <p class="footer-tagline">Hosted by Sunny Mondal — The Blueprint for the Modern Indian Entrepreneur.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" id="social-spotify" aria-label="Spotify">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" id="social-youtube" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" id="social-twitter" aria-label="Twitter/X">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h5>Podcast</h5>
+                        <ul>
+                            <li><a href="#episodes">Episodes</a></li>
+                            <li><a href="#clips">Shorts</a></li>
+                            <li><a href="#guests">Guests</a></li>
+                            <li><a href="#">Playlists</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Connect</h5>
+                        <ul>
+                            <li><a href="#newsletter">Newsletter</a></li>
+                            <li><a href="#book">Book the Host</a></li>
+                            <li><a href="#">Sponsorships</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Listen</h5>
+                        <ul>
+                            <li><a href="#">Spotify</a></li>
+                            <li><a href="#">YouTube</a></li>
+                            <li><a href="#">Apple Podcasts</a></li>
+                            <li><a href="#">Amazon Music</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Sunny Mondal. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio Player Bar (Fixed Bottom) -->
+    <div class="audio-player-bar" id="audioPlayerBar">
+        <div class="ap-bar-left">
+            <div class="ap-avatar ap-av-1">RB</div>
+            <div class="ap-info">
+                <span class="ap-title">Ep. 347: The $100M Founder's Mindset</span>
+                <span class="ap-host">Sunny Mondal Podcast</span>
+            </div>
+        </div>
+        <div class="ap-controls">
+            <button class="ap-btn" id="ap-prev" aria-label="Previous">⏮</button>
+            <button class="ap-btn ap-play" id="ap-play" aria-label="Play/Pause">▶</button>
+            <button class="ap-btn" id="ap-next" aria-label="Next">⏭</button>
+        </div>
+        <div class="ap-progress">
+            <span class="ap-time">12:34</span>
+            <div class="progress-bar" id="progressBar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <span class="ap-time ap-total">1:42:00</span>
+        </div>
+        <button class="ap-close" id="ap-close" aria-label="Close player">✕</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
